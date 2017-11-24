@@ -1,0 +1,214 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #E6E8EB;
+  font-family: 'Lucida Grande', Tahoma, Segoe UI, San Francisco, Roboto;
+}
+#barra{
+  height: 43px;
+  background-color: #334F8D;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100000;
+}
+#contenidor{
+  width: 852px;
+  background-color: #FFF;
+  margin: 0 auto;
+}
+#portada{
+  height: 315px;
+  background-image: url(../img/portada.jpg);
+  margin-top: 43px;
+}
+#nom{
+  color: white;
+  width: 320px;
+  position: relative;
+  top: 270px;
+  left: 200px;
+  text-shadow: 0 0 2px #000
+}
+#perfil{
+  border: solid 2px white;
+  border-radius: 4px;
+  position: relative;
+  left: 20px;
+  top: 130px;
+  box-shadow: 0 0 2px #000
+}
+#menu{
+  height: 44px;
+  background-color: #E6E8EB;
+  padding: 0;
+  margin: 0 0 0 192px;
+  width: 476px;
+}
+#menu li{
+  float: left;
+  display: block;
+  font-weight: bold;
+  color: #334F8D;
+  background-color: #FFF;
+  margin: 0 0 0 1px;
+  height: 44px;
+  line-height: 44px;
+  padding: 0 18px;
+}
+#menu li:hover{
+  color: #000;
+  background-image: url(../img/select.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 37px;
+}
+#contingut{
+  border-top: 1px solid #E6E8EB;
+}
+.esquerra{
+  width: 323px;
+  border: solid 1px #AAA;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+.esquerra h4{
+  background-color: #000;
+  color: #FFF;
+  height: 15px;
+  padding: 4.5px;
+  font-weight: normal;
+  font-size: 18px;
+  text-indent: 36px;
+  background-image: url(../img/lateral.png);
+  background-repeat: no-repeat;
+  background-position: 10px 1px;
+  margin: 0;
+}
+#presentacio h4{
+  background-position: 0 0;
+}
+#presentacio li{
+  height: 30px;
+  border-top: 1px solid grey;
+  font-size: 12px;
+  line-height: 30px;
+}
+#presentacio .estudis{
+  list-style-image: url(../img/icones_estudis.png);
+}
+#presentacio .residencia{
+  list-style-image: url(../img/icones_domicili.png);
+}
+#presentacio .sentimental{
+  list-style-image: url(../img/icones_sentimental.png);
+}
+#presentacio .origen{
+  list-style-image: url(../img/icones_ubicacio.png);
+}
+#presentacio .treball{
+  list-style-image: url(../img/icones_feina.png);
+}
+#fotos h4{
+  background-position: 0 -24px;
+}
+#fotos ul li{
+  display: block;
+  width: 99px;
+  height: 99px;
+  margin: 4px;
+  float: left;
+  background-color: red;
+  background-size: 99px 99px;
+  color: transparent;
+}
+#fotos li:hover{
+  opacity: 0.5;
+}
+#fotos ul{
+  background-color: pink;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+#f01{
+  background-image: url(../img/fotos/foto1.jpg);
+}
+#f02{
+  background-image: url(../img/fotos/foto2.jpg);
+}
+#f03{
+  background-image: url(../img/fotos/foto3.jpg);
+}
+#f04{
+  background-image: url(../img/fotos/foto4.jpg);
+}
+#f05{
+  background-image: url(../img/fotos/foto5.jpg);
+}
+#f06{
+  background-image: url(../img/fotos/foto6.jpg);
+}
+#f07{
+  background-image: url(../img/fotos/foto7.jpg);
+}
+#f08{
+  background-image: url(../img/fotos/foto8.jpg);
+}
+#f09{
+  background-image: url(../img/fotos/foto9.jpg);
+}
+
+#amics h4{
+  background-position: 0 -48px;
+}
+#amics ul li{
+  display: block;
+  width: 99px;
+  height: 99px;
+  margin: 4px;
+  float: left;
+  background-color: red;
+  background-size: 99px 99px;
+  color: #FFF;
+  font-size: 10px;
+  line-height: 170px;
+  text-shadow: 0 0 3px #000;
+  text-indent: 5px;
+}
+#amics li:hover{
+  opacity: 0.5;
+}
+#amics ul{
+  background-color: pink;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+#a01{
+  background-image: url(https://jsagrera2018.github.io/MP08/s2m8uf103_sagrera/img/perfil.jpg);
+}
+#a02{
+  background-image: url(https://rgarcial2018.github.io/MP08/s2m8uf103_garcial/img/perfil.jpg);
+}
+#a03{
+  background-image: url(https://dlopez-goicochea2018.github.io/MP08/s2m8uf103_lopez-goicochea/img/perfil.jpg);
+}
+#a04{
+  background-image: url(https://xolle2018.github.io/MP08/s2m8uf103_olle/img/perfil.jpg);
+}
+#a05{
+  background-image: url(https://kbaquerizo2018.github.io/MP08/s2m8uf103_baquerizo/img/perfil.jpg);
+}
+#a06{
+  background-image: url(https://jsanchez2018.github.io/MP08/s2m8uf103_sanchez/img/perfil.jpg);
+}
+#a07{
+  background-image: url(https://mpanchame2018.github.io/MP08/s2m8uf103_panchame/img/perfil.jpg);
+}
+#a08{
+  background-image: url(https://calvarez2018.github.io/MP08/s2m8uf103_alvarez/img/perfil.jpg);
+}
+#a09{
+  background-image: url(https://amanchon2018.github.io/MP08/s2m8uf103_manchon/img/perfil.jpg);
+}
