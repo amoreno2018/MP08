@@ -17,6 +17,7 @@ body{
   width: 852px;
   background-color: #FFF;
   margin: 0 auto;
+  overflow: hidden;
 }
 #portada{
   height: 315px;
@@ -63,27 +64,11 @@ body{
   background-repeat: no-repeat;
   background-position: 50% 37px;
 }
+#menu ul{
+
+}
 #contingut{
   border-top: 1px solid #E6E8EB;
-}
-.esquerra{
-  width: 323px;
-  border: solid 1px #AAA;
-  border-radius: 3px;
-  margin: 10px 0;
-}
-.esquerra h4{
-  background-color: #000;
-  color: #FFF;
-  height: 15px;
-  padding: 4.5px;
-  font-weight: normal;
-  font-size: 18px;
-  text-indent: 36px;
-  background-image: url(../img/lateral.png);
-  background-repeat: no-repeat;
-  background-position: 10px 1px;
-  margin: 0;
 }
 #presentacio h4{
   background-position: 0 0;
@@ -118,7 +103,6 @@ body{
   height: 99px;
   margin: 4px;
   float: left;
-  background-color: red;
   background-size: 99px 99px;
   color: transparent;
 }
@@ -126,7 +110,6 @@ body{
   opacity: 0.5;
 }
 #fotos ul{
-  background-color: pink;
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -180,7 +163,6 @@ body{
   opacity: 0.5;
 }
 #amics ul{
-  background-color: pink;
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -211,4 +193,104 @@ body{
 }
 #a09{
   background-image: url(https://amanchon2018.github.io/MP08/s2m8uf103_manchon/img/perfil.jpg);
+}
+#pensa ul{
+  height: 40px;
+  background-color: #F5F6F8;
+  margin: 0;
+  padding: 0;
+}
+#pensa ul li{
+  float: left;
+  margin: 5px 0 0 35px;
+  border-right: solid 1px #CCC;
+}
+#pensa div{
+  height: 40px;
+  background-color: orange;
+  margin: 0;
+  padding: 0;
+}
+#pensa div input{
+  height: 36px;
+  margin: 0;
+  padding: 0;
+  width: 509px;
+}
+#pensa ul li a{
+  display: block;
+  height: 35px;
+}
+#pensa ul li a:hover{
+  background-image: url(../img/select.gif));
+  background-repeat: no-repeat;
+  background-position: 50% 30px;
+}
+#estado{
+  list-style-image: url(../img/post_estat.png);
+}
+#foto{
+  list-style-image: url(../img/post_foto.png);
+}
+#acontecimiento{
+  list-style-image: url(../img/post_fitxer.png);
+}
+.esquerra{
+  width: 323px;
+  border: solid 1px #AAA;
+  border-radius: 3px;
+  margin: 10px 0;
+  float: left;
+  clear: left;
+  overflow: hidden;
+}
+.esquerra h4{
+  color: #000;
+  height: 15px;
+  padding: 4.5px;
+  font-weight: normal;
+  font-size: 18px;
+  text-indent: 36px;
+  background-image: url(../img/lateral.png);
+  background-repeat: no-repeat;
+  background-position: 10px 1px;
+  margin: 0px;
+  line-height: 15px;
+  border-radius: 3px;
+}
+.dreta{
+  width: 513px;
+  border: solid 1px #AAA;
+  border-radius: 3px;
+  margin: 10px 0;
+  float: right;
+  position: relative;
+  top: -662px;
+  overflow: hidden;
+}
+.postintro{
+  padding: 10px 10px 10px 50px;
+  background-image: url(../img/perfil.jpg);
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: 10px 10px;
+}
+.post img, .post iframe, .post p{
+  font-size: 12px;
+  padding: 10px;
+  width: 493px;
+}
+h5{
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  height: 10px;
+  padding: 5px;
+}
+h6{
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  height: 10px;
+  padding: 5px;
 }
